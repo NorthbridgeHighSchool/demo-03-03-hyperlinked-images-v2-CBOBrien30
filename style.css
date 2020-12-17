@@ -1,0 +1,28 @@
+.cards img{
+  max-height: 175px;
+  border: 8px double rgb(39, 7, 90);
+  padding: 10px;
+}
+
+.logo{
+  float: left;
+  margin-right: 20px;
+  height: 90px;
+}
+
+html{
+  background-color: rgb(215, 185, 250);
+}
+
+h1{
+  color: rgb(9, 16, 82);
+  font-variant: small-caps;
+}
+h2{
+  color: rgb(9, 16, 82);
+  font-variant: small-caps
+}
+.textblock{
+  background-color: rgb(158, 163, 235);
+  color: rgb(7, 44, 78);
+}
