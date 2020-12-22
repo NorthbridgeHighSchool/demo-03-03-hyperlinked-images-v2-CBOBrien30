@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Nunito+Sans:ital,wght@1,600&family=Roboto+Slab&display=swap');
+
 .cards img{
   max-height: 175px;
   border: 8px double rgb(39, 7, 90);
@@ -7,22 +9,43 @@
 .logo{
   float: left;
   margin-right: 20px;
-  height: 90px;
+  height: 100px;
 }
 
-html{
-  background-color: rgb(215, 185, 250);
-}
 
 h1{
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
   color: rgb(9, 16, 82);
-  font-variant: small-caps;
+  font-size: 26pt;
 }
 h2{
   color: rgb(9, 16, 82);
-  font-variant: small-caps
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 18pt;
 }
 .textblock{
   background-color: rgb(158, 163, 235);
   color: rgb(12, 41, 66);
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html{
+  background-color: rgb(215, 185, 250);
+  text-align: justify;
+}
+.odd{
+  float: right;
+  border: 4px solid rgb(113, 93, 167);
+  margin-left: 20px;
+  max-height: 300px;
 }
